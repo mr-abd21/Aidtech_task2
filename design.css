@@ -1,0 +1,65 @@
+.container{
+    text-align: center;
+    margin-top:23px
+}
+
+table{
+    margin: auto;
+}
+input{
+    border-radius: 21px;
+    border: none;
+    font-size:34px;
+    height: 100px;
+    width: 456px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px black, 2px 2px 5px white;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgb(163, 169, 169);
+    color: white;
+    width: 102px;
+    height: 90px;
+    margin: 6px;
+    transition: transform .2s;
+    box-shadow: 2px 2px 10px white;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1,1.1);
+    color: black;
+    border: 5px solid white;
+    text-shadow: 2px 2px 5px white;
+}
+
+.calculator{ 
+    border:none;
+    background-color: rgb(21, 12, 31);
+    padding: 23px;
+    border-radius: 53px;
+    display: inline-block;
+    box-shadow: 5px 5px 10px black, 5px 5px 10px white;
+}
+
+h1{
+    display: block;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 28px;
+    font-family: Roboto;
+    color:white;
+    text-shadow: 5px 5px 10px black;
+    transition: transform .2s;
+    cursor: pointer;
+}
+h1:hover{
+    transform: scale(1.1,1.1);
+    color: black;
+    text-shadow: 2px 2px 5px white;
+}
